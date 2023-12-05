@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    android:elevation="@dimen/elevacion_ActionBar"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    >
+
+     <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/colorAccent"
+            android:text="@string/app_name"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margen_toolbar"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:src="@drawable/icons_estrella5"
+            android:layout_width="@dimen/lado_estrella"
+            android:layout_height="@dimen/lado_estrella"
+            android:layout_marginLeft="@dimen/margen_toolbar"
+            android:layout_gravity="center"
+            android:onClick="GoMascotasFav"
+            />
+
+    </LinearLayout>
+
+</android.support.v7.widget.Toolbar>
