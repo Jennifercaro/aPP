@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tamaño_de_letra">25sp</dimen>
+    <dimen name="espacio_top">25sp</dimen>
+    <dimen name="heigth_input">48sp</dimen>
+    <dimen name="width_input">350sp</dimen>
+    <dimen name="espacio_top_scrollview">50sp</dimen>
+</resources>

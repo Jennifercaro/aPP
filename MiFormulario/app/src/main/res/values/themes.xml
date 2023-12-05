@@ -1,0 +1,13 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MiFormulario" parent="Theme.Material3.DayNight.NoActionBar"/>
+        <!-- Customize your light theme here. -->
+
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <item name="colorPrimary" type="color">@color/primary_color</item>
+    <item name="colorPrimaryDark" type="color">@color/dark_primary_color</item>
+    <item name="colorAccent" type="color">@color/accent_color</item>
+    <item name="primaryColorText" type="color">@color/white</item>
+
+    <style name="Theme.MiFormulario" parent="Base.Theme.MiFormulario" />
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/dark_primary_color"
+    >
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo"
+        android:layout_marginTop="@dimen/espacio_top"
+        android:textSize="@dimen/tamaño_de_letra"
+        android:textStyle="bold"
+        android:textColor="@color/secondary_text"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif-monospace"
+        tools:ignore="VisualLintOverlap" />
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/espacio_top_scrollview"
+
+    >
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+
+       <EditText
+           android:id="@+id/editnombre"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="@dimen/espacio_top_scrollview"
+           android:autofillHints=""
+           android:fontFamily="serif-monospace"
+           android:hint="@string/nombre_usuario"
+           android:inputType="text"
+           android:minHeight="48dp"
+           android:textAlignment="center"
+           tools:ignore="TextContrastCheck,VisualLintTextFieldSize" />
+
+       <TextView
+           android:text="@string/fecha_de_nacimiento"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:fontFamily="serif-monospace"
+           android:textStyle="bold"
+           android:textSize="@dimen/tamaño_de_letra"
+           android:textAlignment="center"
+           />
+   <DatePicker
+       android:id="@+id/editcumpleanios"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:datePickerMode="spinner"
+       android:spinnersShown="true"
+       android:calendarViewShown="false"
+       android:textAlignment="center"
+       android:fontFamily="serif-monospace"
+       />
+
+       <EditText
+           android:id="@+id/edittelefono"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:autofillHints=""
+           android:hint="@string/telefono"
+           android:inputType="number"
+           android:minHeight="48dp"
+           android:textAlignment="center"
+           tools:ignore="TextContrastCheck,VisualLintTextFieldSize"
+           android:fontFamily="serif-monospace"/>
+
+       <EditText
+           android:id="@+id/editcorreo"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:autofillHints=""
+           android:hint="@string/correo"
+           android:inputType="text"
+           android:minHeight="48dp"
+           android:textAlignment="center"
+           tools:ignore="TextContrastCheck,VisualLintTextFieldSize"
+           android:fontFamily="serif-monospace"
+           />
+
+       <EditText
+           android:id="@+id/editinfo"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:autofillHints=""
+           android:hint="@string/info"
+           android:inputType="text"
+           android:minHeight="48dp"
+           android:textAlignment="center"
+           tools:ignore="TextContrastCheck,VisualLintTextFieldSize"
+           android:fontFamily="serif-monospace"
+           />
+
+       <Button
+           android:id="@+id/btnaceptar"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="@dimen/espacio_top"
+           android:minHeight="48dp"
+           android:text="@string/aceptar"
+           android:textColor="@color/white"
+           android:textSize="@dimen/tamaño_de_letra"
+           android:textStyle="bold"
+           android:fontFamily="serif-monospace"
+           tools:ignore="VisualLintButtonSize"
+           />
+   </LinearLayout>
+</ScrollView>
+
+
+</RelativeLayout>
