@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">The Walking Dog</string>
+    <string name="act2_name">Mascotas Favoritas</string>
+    <string name="pnombre_Mascota">Nombre Mascota</string>
+    <string name="pnumero_Likes">Numero Likes</string>
+    <string name="menu_Contacto">Contacto</string>
+    <string name="menu_About">Acerca de</string>
+    <string name="Text_About">David Sánchez Ing. mecatrónico egresado de la BUAP. Puebla, Pue.</string>
+    <string name="Text_Boton_Enviar">Enviar Correo</string>
+    <string name="til_textName">Nombre Completo</string>
+    <string name="til_textEmail">E-mail</string>
+    <string name="til_textMensaje">Mensaje</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

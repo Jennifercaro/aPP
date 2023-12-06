@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:id="@+id/cvmascota"
+    android:layout_marginBottom="@dimen/cv_martin_bottom"
+    cardview:cardCornerRadius="@dimen/corner_radius_cardview"
+    android:elevation="8dp"
+    >
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/CV_img_size"
+            android:id="@+id/imgMascota"
+            android:src="@drawable/schnauzer"
+            android:scaleType="centerCrop"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:id="@+id/imgHueso"
+                android:src="@drawable/bone"/>
+
+            <TextView
+                android:id="@+id/tvnameMascotaCV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:text="@string/pnombre_Mascota"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@+id/imgHueso"/>
+
+            <TextView
+                android:id="@+id/tvnumerolikesCV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:text="@string/pnumero_Likes"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_toLeftOf="@+id/imgHuesoLike"
+                android:layout_centerVertical="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:id="@+id/imgHuesoLike"
+                android:src="@drawable/bone_like"
+                android:layout_alignParentRight="true" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

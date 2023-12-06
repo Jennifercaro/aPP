@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="elevacion_ActionBar">4dp</dimen>
+    <dimen name="lado_estrella">40dp</dimen>
+    <dimen name="margen_toolbar">80dp</dimen>
+    <dimen name="margen_name_toolbar2">25dp</dimen>
+    <dimen name="corner_radius_cardview">4dp</dimen>
+    <dimen name="cv_name_size">20sp</dimen>
+    <dimen name="CV_padding_rigth">12dp</dimen>
+    <dimen name="CV_padding_left">15dp</dimen>
+    <dimen name="imgCV_size">292dp</dimen>
+    <dimen name="cv_martin_bottom">20dp</dimen>
+    <dimen name="RV_padding_left">20dp</dimen>
+    <dimen name="RV_padding_right">20dp</dimen>
+    <dimen name="CV_padding">5dp</dimen>
+    <dimen name="CV_img_size">292dp</dimen>
+</resources>
